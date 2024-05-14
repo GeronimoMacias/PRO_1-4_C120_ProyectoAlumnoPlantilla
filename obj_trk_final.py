@@ -3,8 +3,8 @@ import time
 import math
 #Actividad 1
 #declara p1 y p2
-p1 = 
-p2 = 
+p1 = 500
+p2 = 300
 
 xs = []
 ys = []
@@ -29,7 +29,7 @@ def goal_track(img,bbox):
 
     #Actividad 2
     #Descomenta el código correcto 
-    #cv2.circle(img,(c1,c2),2,(0,0,255),5)
+    cv2.circle(img,(c1,c2),2,(0,0,255),5)
     #cv2.circle(img,(c2,c1),2,(0,5,255),0)
     #cv2.circle(img,(c2,c1),2,(0,0,255),5)
     #cv2.circle(img,(c1,c2),2,(0,5,255),0)
